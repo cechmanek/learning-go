@@ -18,6 +18,7 @@ func main() {
 		}
 
 		b, err := ioutil.ReadAll(response.Body)
+		response.Body.Close()
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "fetch: reading %s: %v\n", err)
 			os.Exit(1)
