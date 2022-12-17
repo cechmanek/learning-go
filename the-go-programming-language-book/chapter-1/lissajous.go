@@ -12,6 +12,8 @@ import (
 )
 
 var palette = []color.Color{color.White, color.Black} // can declare outside of functions
+// palette is an array [] of type color.Color
+// color.Color is a struct type initialized with {}
 
 const ( // declares mulitple constants
 	whiteIndex = 0 // first color palette
