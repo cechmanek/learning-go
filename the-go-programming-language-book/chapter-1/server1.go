@@ -1,6 +1,7 @@
 // server1 is a minimal "echo" server
 // use this with: go run server1.go
 // and in a second terminal: go run fetch.go http://localhost:8000/some_path
+// can also open http://localhost:8000/some_path in a web browser
 package main
 
 import (
